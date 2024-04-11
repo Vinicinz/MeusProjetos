@@ -15,6 +15,7 @@ public class ex13 {
          * desconto = preco * 0.05;
          * }
          * 
+         * 
          * Geralmente a estrutura de ifs fica desta forma, mas com a condição ternaria é
          * possivel deixar mais clean o codigo.
          */
