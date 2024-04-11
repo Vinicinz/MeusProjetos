@@ -1,0 +1,76 @@
+.main-nav{
+    background-color:#000000;
+    padding: 10px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.top-home{
+    background-color: #000000;
+    color: #07921a;
+    padding: 5px 25px;
+    border-top: .05rem solid #e5e5e5;
+    border-bottom:.05rem solid #e5e5e5 ;
+    overflow: hidden;
+}
+.topnav{
+    float: right;
+    color: #07921a;
+    padding: 25px 20px;
+    font-size: 25px;
+}
+.topnav a{
+    padding: 5px;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+
+}
+.body-in {
+    color: #07921a;
+    text-align: center;
+    font-size: large;
+}
+.content{
+
+    position: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: lem;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box{
+    color:#FFA500;
+}
+.box h3{
+    color: rgb(255, 255, 255);
+}
+.content2 {
+    text-align: center;
+    font-size: 25px;
+}
+.description{
+    text-align:left;
+    width: 700px;
+    font-size: 20px;
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.blog-footer {
+    padding: 10px;
+    color: #999;
+    text-align: center;
+    background-color: #000000;
+    border-top: .05rem solid #e5e5e5;
+  }
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}

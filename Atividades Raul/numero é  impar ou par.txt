@@ -1,0 +1,19 @@
+NOME: SANDER HIDEKI RA: 12523220844, DHERIC OLIVEIRA RA: 1232329802, IGOR IKEDA RA: 12523210576, VINICIUS QUEIROZ RA: 12523221553
+
+import java.util.Scanner;
+
+public class Atividade {
+    public static void main(String[] args) {
+        int num, x;
+        Scanner sc = new Scanner (system.in);
+        System.out.print("Digite um Valor: ");
+        num = sc.nextInt()
+        x = num % 2;
+        if (x ==0){
+            system.out.println("Valor é par! ")
+        }
+        else {
+            System.out.println("Valor é Impar! ");
+        }       
+    }
+}
