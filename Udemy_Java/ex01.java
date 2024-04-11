@@ -1,6 +1,6 @@
 package Udemy_Java;
 
-public class ex1 {
+public class ex01 {
     public static void main(String[] args) {
         String nome = "maria";
         int idade = 31;
