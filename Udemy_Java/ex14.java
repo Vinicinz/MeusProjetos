@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class ex14 {
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
 
         int x = sc.nextInt();

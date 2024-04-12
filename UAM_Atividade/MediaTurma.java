@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class MediaTurma {
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         int aluno, count;
         double nota, media, soma;

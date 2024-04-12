@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class NumMaior {
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
         int maior = 0;
