@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class MediaTurma {
     public static void main(String[] args) {
-        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         int aluno, count;
         double nota, media, soma;
@@ -22,6 +21,7 @@ public class MediaTurma {
         media = soma / aluno;
 
         System.out.printf("A media da sala é de %.2f ", media);
+        sc.close();
     }
 
 }
