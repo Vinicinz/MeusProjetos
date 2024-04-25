@@ -1,11 +1,10 @@
 import java.util.Scanner;
 
 public class ValidateCPF {
-    @SuppressWarnings("resource")
     public static void main(String[] args) {
-        Scanner Scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("Type your Social Number(CPF) without hyphen or dots: ");
-        String CPF = Scanner.nextLine();
+        String CPF = sc.nextLine();
         System.out.println("CPF: " + CPF);
 
         if (CPF.length() == 11) {
@@ -50,6 +49,8 @@ public class ValidateCPF {
                 dig2 = 0;
             }
             System.out.println("Digit 2: " + dig2);
+
+            sc.close();
         }
     }
 }
