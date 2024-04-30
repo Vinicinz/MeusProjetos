@@ -5,14 +5,13 @@ public class Atividade12b {
         int count = 0;
         int soma = 0;
         do {
-            int rest = count %2;
-            if (rest == 0){
+            int rest = count % 2;
+            if (rest == 0) {
                 soma += count;
             }
             count++;
-            
-        }while(count <= 500);
-        System.out.println(count);
+        } while (count <= 500);
+        System.out.println(soma);
 
     }
 }
