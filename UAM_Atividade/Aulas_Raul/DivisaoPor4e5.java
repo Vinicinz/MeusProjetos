@@ -1,3 +1,5 @@
+package UAM_Atividade.Aulas_Raul;
+
 import java.util.Scanner;
 
 public class DivisaoPor4e5 {

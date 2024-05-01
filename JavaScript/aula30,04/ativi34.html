@@ -28,13 +28,13 @@
             var count = 0
             
         for (var i = 0; i < matriz.length; i++) {
-            for (var j = 0; j < matriz2.length; j++) {
+            for (var j = 0; j < matriz2[i].length; j++) {
                 if (matriz[i][j] == matriz2[i][j]) {
                     count++
                 }
             }
         }
-            if (count != 9){
+            if (count == 9){
                 document.write("sua matriz é igual")
             }
     </script>

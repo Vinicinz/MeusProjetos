@@ -1,8 +1,8 @@
-
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class atividade30 {
+public class Desafio1 {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
