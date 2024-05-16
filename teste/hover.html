@@ -5,10 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="hover.css" />
 
 </head>
 <style>
+    body {
+        background-color: black;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
     .container {
         position: relative;
         gap: 1em;
@@ -21,14 +29,16 @@
 
     .box {
         background: var(--img) center center;
-        background-size:cover;
+        background-size: cover;
         display: flex;
         transition: all 500ms;
+
     }
 
     .container:hover .box {
         filter: grayscale(100%) opacity(24%);
     }
+
     .container .box:hover {
         filter: grayscale(0%) opacity(100%);
     }
@@ -56,15 +66,13 @@
     .box:nth-child(even) {
         transform: translateY(16px);
     }
-
-
 </style>
-    <div class="container">
-        <div class="box box-1" style="--img: url(./img/img-1.jpg);"></div>
-        <div class="box box-2" style="--img: url(./img/img-2.jpg);"></div>
-        <div class="box box-3" style="--img: url(./img/img-3.jpg);"></div>
-        <div class="box box-4" style="--img: url(./img/img-4.jpg);"></div>
-    </div>
+<div class="container">
+    <div class="box box-1" style="--img: url(./img/img-1.jpg);"></div>
+    <div class="box box-2" style="--img: url(./img/img-2.jpg);"></div>
+    <div class="box box-3" style="--img: url(./img/img-3.jpg);"></div>
+    <div class="box box-4" style="--img: url(./img/img-4.jpg);"></div>
+</div>
 
 </body>
 
