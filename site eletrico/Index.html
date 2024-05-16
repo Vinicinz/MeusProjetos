@@ -4,57 +4,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Energia Solar</title>
-    <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById('menuOptions');
+            if (menu.style.display === 'block') {
+                menu.style.display = 'none';
+            } else {
+                menu.style.display = 'block';
+            }
+        }
+    </script>
 
-    <header class="topnav">
-        <div class="topnavdiv">
-            <div>
-                logo
-            </div>
-            <div class="group">
+    <header class="top-home">
+        <div class="container">
+            <div class="logo">Solar.com</div>
+            <div class="">
                 <input placeholder="Search" type="search" class="input">
             </div>
-
-            <div>
-                carrinho de compras
+            <div> 
+                <svg class="cart" onclick="toggleMenu()" viewBox="0 0 100 80" width="40" height="40">
+                    <rect width="100" height="20"></rect>
+                    <rect y="30" width="100" height="20"></rect>
+                    <rect y="60" width="100" height="20"></rect>
+                </svg>
             </div>
-
-            <nav>
-                <div class="menu-icon" onclick="toggleMenu()">menu</div>
-                <div class="menu-options" id="menuOptions">
-                    <ul>
-                        <li><a href="">produtos</a></li>
-                        <li><a href="">Kits</a></li>
-                        <li><a href="">serviços</a></li>
-                        <li><a href="">informações</a></li>
-                    </ul>
-                </div>
-            </nav>
         </div>
-
-        </div>
-
+        <nav class="menu" id="menuOptions">
+            <ul>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Kits</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Informações</a></li>
+            </ul>
+        </nav>
     </header>
 
 
     <main>
+        <br><br><br><br>
+        <div class="principal ">
+            <div class="imagem-principal"> <img src="casa1.jpg" src="casa1.jpg" alt="casa com painel solar" /
+                    width="300" height="200">
+                <p class="palavra"> <strong>Residencial</strong> </p>
+            </div>
+
+            <div class="imagem-principal"> <img src="industrial.jpg" src="industrial.jpg"
+                    alt="induddtria com painel solar" width="300" height="200">
+                <p class="palavra"><strong> Industrial</strong></p>
+            </div>
+
+            <div class="imagem-principal"> <img src="rural.jpg" src="rural.pjg" alt="area rural com painel solar" /
+                    width="300" height="200">
+                <p class="palavra"><strong>Rural</strong></p>
+            </div>
+        </div>
+        <br><br><br><br>
 
 
+        <div class="texto">
+
+            <p>Energia solar é um termo que se refere à energia proveniente da luz e do calor do Sol. Tecnologias
+                solares são amplamente caracterizadas como ativas ou passivas, dependendo da forma como capturam,
+                convertem e distribuem a energia solar. Entre as técnicas solares ativas estão o uso de painéis
+                fotovoltaicos, concentradores solares térmicos das usinas heliotérmicas e os aquecedores solares. Entre
+                as técnicas solares passivas estão a orientação de um edifício para o Sol, a seleção de materiais com
+                massa térmica favorável ou propriedades translúcidas e projetar espaços que façam o ar circular
+                naturalmente.</p>
+        </div>
+
+
+        <a href="pagina2.html#C4">Serviços de Montagem</a>
+        <a href="pagina2.html#C5">Kit Básico de Energia Solar</a>
+        <a href="pagina2.html#C6">Informações</a>
     </main>
 
+    <br><br>
 
     <footer>
-
+        <h3>Solar.com</h3>
+        <p>Copyright © 2024 Your Company. All Rights Reserved.</p>
+        <div class="social-media-icons">
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="https://th.bing.com/th/id/OIP.BQiyW6e9jkkTgRvTlG8jFAHaHa?rs=1&pid=ImgDetMain" alt="Facebook"
+                    width="30px" height="30px">
+            </a>
+            <a href="https://www.youtube.com" target="_blank">
+                <img src="https://th.bing.com/th/id/OIP.hR6TQma4SWfP-yfQmT5oqgAAAA?rs=1&pid=ImgDetMain" alt="Youtube"
+                    width="30px" height="30px">
+            </a>
+            <a href=" https://www.instagram.com" target="_blank">
+                <img src="https://logopng.com.br/logos/instagram-40.png" alt="Instagram" width="30px" height="30px">
+            </a>
+            <a href="https://web.whatsapp.com" target="_blank">
+                <img src="https://logospng.org/download/whatsapp/logo-whatsapp-verde-icone-ios-android-4096.png"
+                    alt="Whatsapp" width="30px" height="30px">
+            </a>
 
     </footer>
-
-    <script src="script.js"></script>
-
 </body>
 
 </html>

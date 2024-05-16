@@ -1,60 +1,160 @@
-.topnav {
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    padding: 5px 25px;
-    overflow: hidden;
-    justify-content: space-between;
-    display: flex;
-    align-items: center;
+ /* imagens [residencial,industrial e rural] */
 
-}
+ .principal {
+   display: flex;
+   justify-content: space-around;
+ }
 
-.topnavdiv {
-    display: flex;
-    align-items: center;
-}
-.group {
-    display: flex;
-    line-height: 28px;
-    align-items: center;
-    position: relative;
-    max-width: 190px;
-}
+ .imagem-principal {
+   width: 300px;
+   height: 200px;
+   border: 1px solid #00b880;
+   border-radius: 3px;
+   padding: 7px;
+   transition: box-shadow 0.3s ease-in-out;
 
-.input {
-    width: 150%;
-    height: 40px;
-    line-height: 28px;
-    padding: 0 1rem;
-    padding-left: 2.5rem;
-    border: 2px solid transparent;
-    border-radius: 8px;
-    outline: none;
-    background-color: #f3f3f4;
-    color: #0d0c22;
-    transition: .3s ease;
-}
+ }
 
-.menu-icon {
-    font-size: 30px;
-    cursor: pointer;
-    user-select: none;
-}
+ .imagem-principal:hover {
+   transform: scale(1.1);
+   box-shadow: 0 0 4px 4px #2196f3;
+ }
 
-.menu-options {
-    display: none;
-    position: absolute;
-    top: 40px;
-    left: 0;
-    background-color: #f9f9f9;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    width: 200px;
-}
+ /* palavras residencial, indusrial e rural */
+ .palavra {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-decoration-line: underline;
+   text-decoration-style: double;
+   background-color: #99fefd;
+   color: #2d2c55;
+   padding: 15px;
+   border: 1px solid #00b880;
+   border-radius: 5px;
+   margin: 20px;
 
-.menu-options a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
+ }
+
+ /* texto explicando sobre energia solar */
+ .texto {
+
+   background-color: #edfffa;
+   border: 1px solid #00b880;
+   border-radius: 5px;
+   margin: 50px;
+   display: flex;
+   justify-content: center;
+   padding: 10px;
+   flex: 10;
+   box-shadow: 9px 6px #2196f3;
+ }
+
+ /* link serviço, montagem e informação  tambem regula o tamanho do botão e a maozinha quando mouse passa por cima*/
+ a:link,
+ a:visited {
+   background-color: white;
+   border-radius: 5px;
+   padding: 14px 25px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+ }
+
+ a:hover,
+ a:active {
+   background-color: #2196f3;
+ }
+
+
+ footer {
+   background-color: #c3e3fd;
+   padding: 20px;
+   text-align: center;
+   font-size: 14px;
+   color: #2f2c79;
+
+ }
+
+ /* redes sociais */
+ .social-media-icons {
+   margin-left: 700px;
+ }
+
+
+ .top-home {
+   background-color: #c3e3fd;
+   color: #2f2c79;
+ }
+
+ .container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 25px 20px;
+   font-size: 25px;
+ }
+
+ .logo {
+   font-size: 36px;
+   font-weight: bold;
+   text-transform: uppercase;
+ }
+
+ .input {
+   padding: 10px;
+   font-size: 16px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   box-sizing: border-box;
+   display: flex;
+   align-items: center;
+   position: relative;
+   line-height: 28px;
+   width: 500px;
+ }
+
+ .menu {
+   margin: 0;
+   display: none;
+   float: right;
+ }
+
+ .menu ul {
+   list-style: none;
+   margin: 0;
+
+ }
+
+ .menu ul li {
+   margin-right: 20px;
+   margin: 0;
+   font-size: 18px;
+   text-transform: uppercase;
+
+ }
+ .menu ul li a {
+   float: right;
+   color: #080808;
+   text-decoration: none;
+   transition: color 0.3s;
+   border: #080808 solid 1px;
+   margin: 2px;
+
+ }
+
+ .menu ul li a:hover {
+   color: #2f2c79;
+   background-color: #c3e3fd;
+   transform: scale(1.1);
+ }
+
+ .cart {
+   right: 20px;
+   top: 50%;
+   font-size: 20px;
+   color: #1b1212;
+ }
+
+ .cart:hover {
+   transform: scale(1.1);
+   cursor: pointer;
+ }
