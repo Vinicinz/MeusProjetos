@@ -2,12 +2,12 @@ package aulaAndreia.aula2105;
 
 public class Animal {
 
-    public String nome;
-    public double comprimento;
-    public int numDePatas;
-    public String cor;
-    public String ambiente;
-    public double velocidadeMedia;
+    private String nome;
+    private double comprimento;
+    private int numDePatas;
+    private String cor;
+    private String ambiente;
+    private double velocidadeMedia;
 
     public Animal(String nome, double comprimento, int numeroDePatas, String cor, String ambiente, double velocidadeMedia) {
         this.nome = nome;
@@ -68,8 +68,8 @@ public class Animal {
 
     @Override
     public String toString() {
-        return "Animal [nome=" + nome + ", comprimento=" + comprimento + ", numDePatas=" + numDePatas + ", cor=" + cor
-                + ", ambiente=" + ambiente + ", velocidadeMedia=" + velocidadeMedia + "]";
+        return "LISTA DE ANIMAIS: \n NOME: " + nome + "\n COMPRIMENTO: " + comprimento + "\n NUMERO DE PATAS: " + numDePatas + "\n COR: " + cor
+                + "\n AMBIENTE: " + ambiente + "\n VELOCIDADE MEDIA: " + velocidadeMedia;
     }
 
 }

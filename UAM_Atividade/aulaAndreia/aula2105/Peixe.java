@@ -19,8 +19,8 @@ public class Peixe extends Animal {
 
     @Override
     public String toString() {
-        return "Animal [nome=" + nome + ", comprimento=" + comprimento + ", numDePatas=" + numDePatas + ", cor=" + cor
-                + ", ambiente=" + ambiente + ", velocidadeMedia=" + velocidadeMedia + ", caracteristica=" + caracteristica + "]";
+        return "NOME: " + getNome() + "\n COMPRIMENTO: " + getComprimento() + "\n NUMERO DE PATAS: " + getNumDePatas() + "\n COR: " + getCor()
+                + "\n AMBIENTE: " + getAmbiente() + "\n VELOCIDADE MEDIA: " + getVelocidadeMedia() + "\n CARACTERISTICA: " + caracteristica;
     }
 
 }
