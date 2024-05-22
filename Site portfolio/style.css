@@ -1,7 +1,5 @@
 .pagina {
-  background: #2b5876;
-  background: -webkit-linear-gradient(to bottom, #4e4376, #2b5876);
-  background: linear-gradient(to bottom, #4e4376, #2b5876);
+  background: linear-gradient(to bottom, #000000,  #121116, #2d2644);
   font-family: Garamond;
 }
 
@@ -54,7 +52,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: black;
+  color: #272030;
 }
 
 .content {
@@ -194,7 +192,7 @@ svg:hover {
 }
 
 .content2 {
-  margin: 5%;
+  margin: 2%;
   position: center;
   text-align: center;
   display: grid;
@@ -210,8 +208,67 @@ svg:hover {
 }
 .quem-img{
   width: auto;
-  height: 60%;
+  height: 65%;
   margin-left: auto;
   margin-right: 50px;
   vertical-align: middle;
+}
+.quem{
+  font-size: 25px;
+}
+
+.secaogrid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container {
+  position: relative;
+  gap: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  transition: all 400ms;
+  width: 900px;
+  height: 900px;
+}
+
+.boxgrid {
+  background: var(--img) center center;
+  background-size: cover;
+  display: flex;
+  transition: all 500ms;
+
+}
+
+.container:hover .boxgrid {
+  filter: grayscale(100%) opacity(24%);
+}
+
+.container .boxgrid:hover {
+  filter: grayscale(0%) opacity(100%);
+}
+
+.container:has(.box-1:hover) {
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+}
+
+.container:has(.box-2:hover) {
+  grid-template-columns: 1fr 3fr 1fr 1fr;
+}
+
+.container:has(.box-3:hover) {
+  grid-template-columns: 1fr 1fr 3fr 1fr;
+}
+
+.container:has(.box-4:hover) {
+  grid-template-columns: 1fr 1fr 1fr 3fr;
+}
+
+.boxgrid:nth-child(odd) {
+  transform: translateY(-16px);
+}
+
+.boxgrid:nth-child(even) {
+  transform: translateY(16px);
 }

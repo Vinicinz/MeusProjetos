@@ -16,7 +16,7 @@ public class PrgValores {
         int menor = vec[0];
         int maior = vec[0];
 
-        for (int i = 1; i < x; i++) {
+        for (int i = 0; i < x; i++) {
             if (vec[i] > maior) {
                 maior = vec[i];
             }
@@ -25,7 +25,7 @@ public class PrgValores {
             }
             soma += vec[i];
         }
-        for (int i = 1; i < x; i++) {
+        for (int i = 0; i < x; i++) {
             if (vec[i] % 2 == 0) {
                 somapar += vec[i];
                 count++;
