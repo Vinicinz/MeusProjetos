@@ -4,11 +4,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Animal gato = new Animal("Gato", 48, 4, "Preto e Branco", "Terra", 2);
+        Animal gato = new Animal("Gato", 48, 4, "Preto e Branco", "Terra", 0.5);
         System.out.println(gato);
 
         System.out.println();
-        Animal camelo = new Mamifero("Camelo", 150, 4, "Amerelo", "Terra", 2, "Leite");
+        Animal camelo = new Mamifero("Camelo", 150, 4, "Amerelo", "Terra", 2.0, "Leite");
         System.out.println(camelo);
 
         System.out.println();
