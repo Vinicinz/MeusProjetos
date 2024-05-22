@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true,
+		"java.debug.settings.onBuildFailureProceed": true,
+		"java.project.sourcePaths": [
+			"UAM_Atividade/Aulas_Raul/aula_29.04",
+			"UAM_Atividade/Aulas_Raul/aula_15.04",
+			"UAM_Atividade/Aulas_Andreia/aula 30.04",
+			""
+		]
+	}
+}

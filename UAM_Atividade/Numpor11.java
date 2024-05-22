@@ -1,5 +1,3 @@
-package UAM_Atividade;
-
 public class Numpor11 {
     public static void main(String[] args) {
 

@@ -1,5 +1,3 @@
-package UAM_Atividade;
-
 import java.util.Scanner;
 
 public class TesteLogica {

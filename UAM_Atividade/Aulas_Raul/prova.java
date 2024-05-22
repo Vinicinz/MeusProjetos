@@ -1,5 +1,4 @@
-
-package UAM_Atividade.Aulas_Raul;
+package Aulas_Raul;
 
 class prova {
     public static void main(String[] args) {

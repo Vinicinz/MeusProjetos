@@ -1,10 +1,7 @@
-package UAM_Atividade;
-
 import java.util.Scanner;
 
 public class ImparOuPar {
 
-    @SuppressWarnings("resource")
     public static void main(String[] args) {
         int num, x;
         Scanner sc = new Scanner(System.in);
@@ -16,5 +13,7 @@ public class ImparOuPar {
         } else {
             System.out.println("Valor é Impar! ");
         }
+
+        sc.close();
     }
 }

@@ -1,4 +1,4 @@
-package UAM_Atividade.Aulas_Raul;
+package Aulas_Raul;
 
 import java.util.Scanner;
 
