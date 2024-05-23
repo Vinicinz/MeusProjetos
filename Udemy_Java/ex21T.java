@@ -1,4 +1,4 @@
-package Udemy_Java;
+package udemy_java;
 
 public class ex21T {
     public String name;
