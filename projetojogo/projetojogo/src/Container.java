@@ -4,11 +4,15 @@ import javax.swing.JFrame;
 public class Container extends JFrame {
 
     public Container() {
-        add(new Fase());
         setTitle("Meu Jogo");
-        setSize(1024, 750);
+        setSize(1024, 760);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
+        this.setResizable(false);
+
+        TelaInicial telaInicial = new TelaInicial(this);
+        setContentPane(telaInicial);
+
         setVisible(true);
     }
 
