@@ -10,10 +10,13 @@ Bem-vindo ao meu repositório de projetos simples! Aqui você encontrará uma co
 ### Python
 - **Scripts e Projetos:** Uma coleção de scripts úteis e projetos que desenvolvi enquanto aprendia Python.
 
+### JavaScript
+- **Exercicios para em Web Sites:** Para aprimorar conhecimentos em desenvolvimento WEB.
+
 ## 🌐 Desenvolvimento Web
 
 ### HTML & CSS
-- **Sites e Páginas Web:** Exemplos de sites e páginas que criei utilizando HTML e CSS, focando em design responsivo e boas práticas de desenvolvimento.
+- **Sites e Páginas Web:** Exemplos de sites e páginas que criei utilizando HTML e CSS, focando em semântica correta e boas práticas de desenvolvimento.
 
 ## 🎮 Jogos
 
