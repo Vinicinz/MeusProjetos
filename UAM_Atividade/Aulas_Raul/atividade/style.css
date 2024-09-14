@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1, h2 {
+    color: #ce3e1a;
+}
+section {
+    margin-bottom: 20px;
+}
+.box{
+    border: solid black 2px;
+    padding: 50px;
+    width: 600px;
+}
+
+.contato-info {
+    list-style-type: none;
+    padding: 0;
+}
+.contato-info li {
+    margin-bottom: 5px;
+}
+.titulo {
+    font-weight: bold;
+}
+.italico {
+    font-style: italic;
+}

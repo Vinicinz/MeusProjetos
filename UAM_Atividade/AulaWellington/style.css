@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    background-color: rgb(204, 90, 90);
+    color: aliceblue;
+    padding: auto;
+    vertical-align: middle;
+}
+
+input {
+    border-radius: 7px;
+    padding: 7px;
+    font-size: 15px;
+    border: 2px solid purple;
+}
+input:hover {
+    background-color: rgb(236, 236, 236);
+}
+button {
+    border-radius: 5px;
+    padding: 7px 15px 7px 15px;
+    font-size: 15px;
+    border: 2px solid purple;
+}
+button:hover {
+    background-color: gray;
+    cursor: pointer;
+}
